@@ -1,0 +1,30 @@
+
+
+""""
+value1 = int(input("enter the integer "))
+b = []
+for i in range(0,value1):
+    temp = int(input())
+    b.append(temp)
+    print(b)
+    
+c = b[:]
+
+print(c)
+"""
+
+#ways2 : using extend function
+
+value1 = int(input("enter the integer "))
+b = []
+for i in range(0,value1):
+    temp = int(input())
+    b.append(temp)
+    print(b)
+
+c = [10,20,30]
+
+c.extend(b)
+
+print(c)
+
