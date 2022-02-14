@@ -1,0 +1,16 @@
+
+
+value1 = int(input("enter the integer " ))
+b = []
+for i in range(0,value1):
+    temp = int(input())
+    b.append(temp)
+    print(b)
+
+b.sort()
+
+print(b)
+
+print("first largest element is ",b[-1])
+
+print("first second element is ",b[-2])
