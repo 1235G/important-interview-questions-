@@ -1,0 +1,21 @@
+a = input("enter the string")
+
+count = 0
+
+for i in a:
+    count = count + 1
+
+print(count)
+
+"""
+
+#way2 using while loop
+
+a = input("enter the string")
+    
+count = 0
+
+while a[count:]:
+    count = count + 1
+    
+print(count)
