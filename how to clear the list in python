@@ -1,0 +1,30 @@
+#
+
+value1 = int(input("enter the integer "))
+b = []
+for i in range(0,value1):
+    temp = int(input())
+    b.append(temp)
+    print(b)
+    
+print("mylist before list",b)
+
+b.clear()
+
+print("mylist after clear",b)
+
+#way 2 using "*= 0" this method remove all elements of the list and makes it empty
+
+value1 = int(input("enter the integer "))
+b = []
+for i in range(0,value1):
+    temp = int(input())
+    b.append(temp)
+    print(b)
+
+print("mylist before list",b)
+
+b *=0
+
+print("mylist after clear",b)
+
