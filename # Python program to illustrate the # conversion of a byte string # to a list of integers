@@ -1,0 +1,6 @@
+
+
+x = input("enter the string")
+
+
+print(list(x))
