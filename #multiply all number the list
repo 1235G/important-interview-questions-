@@ -1,0 +1,30 @@
+
+"""
+value1 = int(input("enter the integer " ))
+b = []
+for i in range(0,value1):
+    temp = int(input())
+    b.append(temp)
+    print(b)
+    
+result = 1
+
+for i in b:
+    result = result * i
+    
+print(result)
+"""
+#numpymethod
+
+import numpy
+
+value1 = int(input("enter the integer "))
+b = []
+for i in range(0,value1):
+    temp = int(input())
+    b.append(temp)
+    print(b)
+
+result = numpy.prod(b)
+
+print(result)
