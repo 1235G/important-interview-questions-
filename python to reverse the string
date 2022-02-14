@@ -1,0 +1,9 @@
+str1 = input("enter the string")
+
+
+r = str1.split(" ")
+
+print(r)
+
+r = r[-1::-1]
+print(r)
