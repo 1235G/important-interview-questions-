@@ -1,0 +1,11 @@
+import re
+
+a = input("enter the string")
+
+regex = re.compile('[@_!#$%&*()<>?/\}{~:]')
+
+if(regex.search(a)== None):
+    print("No special character present in the string")
+    
+else:
+    print("special character in the string")
