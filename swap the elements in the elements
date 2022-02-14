@@ -1,0 +1,23 @@
+#method 1 
+""""
+a = int(input("enter the integer"))
+b = int(input("enter the integer"))
+
+c = a
+a = b
+b = c
+
+print("value of a after swaping",a)
+print("value of b after swaping",b)
+"""
+
+
+#method 2 
+
+a = int(input("enter the integer"))
+b = int(input("enter the integer"))
+
+a,b = b,a 
+
+print("value of a after swaping",a)
+print("value of b after swaping",b)
