@@ -1,0 +1,13 @@
+value1 = int(input("enter the integer "))
+b = []
+for i in range(0,value1):
+    temp = int(input())
+    b.append(temp)
+    print(b)
+    
+total = 0
+
+for i in range(0,len(b)):
+    total = total + b[i]
+
+print("sum of the array is ",total)
