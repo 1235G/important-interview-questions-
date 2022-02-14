@@ -1,0 +1,15 @@
+
+value1 = int(input("enter the integer " ))
+b = []
+for i in range(0,value1):
+    temp = int(input())
+    b.append(temp)
+    print(b)
+
+b.sort()
+
+print(b)
+
+print("smallest element is ",b[0])
+
+print("largest element is ",b[-1])
